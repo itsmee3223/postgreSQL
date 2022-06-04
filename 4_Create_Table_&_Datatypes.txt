@@ -1,0 +1,13 @@
+untuk membuat table dapat dilakukan dengan cara sebagai berikut:
+CREATE TABLE table_name(
+    table_column data_types,
+    table_column2 data_types2,
+    dst...
+);
+
+untuk daftar data types yang disupport oleh postgreSQL cek link ini sesuai versi yang diinstall.
+https://www.postgresql.org/docs/current/datatype.html
+
+untuk melihat list table yang terdapat pada database
+\d untuk menampilkan daftar table yang kita miliki
+\d tbl_name untuk menampilkan isi detail dari tabel
