@@ -1,0 +1,8 @@
+1. untuk melihat perintah apa saja yang terdapat pada postgreSQL
+psql --help
+
+2. untuk connect dengan database
+psql -h hostname -p port -U username -W password
+
+contohnya
+psql -h localhost -p 5432 -U postgres -W ramanda322
