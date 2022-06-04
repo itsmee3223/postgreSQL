@@ -1,0 +1,5 @@
+perintah untuk membuat database
+CREATE DATABASE db_name
+
+contohnya:
+CREATE DATABASE toko_buku
