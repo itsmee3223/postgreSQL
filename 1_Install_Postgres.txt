@@ -1,5 +1,18 @@
-Download postgreSQL melalui link dibawah ini:
+1. Download postgreSQL melalui link dibawah ini:
 https://www.postgresql.org/download/windows/
 
-selanjutnya lakukan installasi seperti biasa. untuk lebih detailnya dapat dilihat pada tutorial berikut ini menit 22:31.
+2. selanjutnya lakukan installasi seperti biasa. untuk lebih detailnya dapat dilihat pada tutorial berikut ini menit 22:31.
 https://www.youtube.com/watch?v=5hzZtqCNQKk
+
+3. setelah instalasi silahkan tambahkan path baru pada Environment variables sesuai dengan lokasi instalasi postgres.
+contoh lokasi file:
+C:\Program Files\PostgreSQL\14\bin
+
+4. agar default user berganti ke postgres lakukan langkah dibawah ini:
+
+Right click on Windows icon and click “System”
+Scroll down to “Advanced System Settings”
+Click Environment Variables
+In “System variables”, click “New”:
+Variable Name: PGUSER
+Variable Value: postgres // dapat diganti dengan nama user lain
