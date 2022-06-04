@@ -1,0 +1,5 @@
+Download postgreSQL melalui link dibawah ini:
+https://www.postgresql.org/download/windows/
+
+selanjutnya lakukan installasi seperti biasa. untuk lebih detailnya dapat dilihat pada tutorial berikut ini menit 22:31.
+https://www.youtube.com/watch?v=5hzZtqCNQKk
