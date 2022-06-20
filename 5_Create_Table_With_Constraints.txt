@@ -1,0 +1,27 @@
+Apa itu constraints? 
+constraints merupakan sebuah batasan atau aturan yang diterapkan untuk sebuah table. sebagai contoh table person berisikan sebuah column name, name tidak boleh kosong karena setiap person pasti memiliki name. maka dari situlah kita memerlukan sebuah constraints untuk memberi tahu bahwa column name dari table person harus diisi dan tidak boleh kosong.
+
+
+Untuk membuat sebuah table dengan constraints:
+CREATE TABLE tbl_name(
+    table_column data_types constraints,
+    table_column2 data_types constraints,
+);
+
+sebagai catatan kita dapat menerapkan lebih dari 1 constraints dalam 1 column.
+untuk constraints apa saja yang disupport oleh postgreSQL dapat dicek pada dokumentasi berikut:
+https://www.postgresql.org/docs/current/ddl-constraints.html
+
+contoh query untuk membuat table dengan constraints:
+CREATE TABLE person (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    gender VARCHAR(7) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    email VARCHAR(150)
+);
+
+untuk melihat list table yang terdapat pada database
+\d untuk menampilkan daftar table yang kita miliki
+\d tbl_name untuk menampilkan isi detail dari tabel
