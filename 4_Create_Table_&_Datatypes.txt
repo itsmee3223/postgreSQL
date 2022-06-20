@@ -8,6 +8,17 @@ CREATE TABLE table_name(
 untuk daftar data types yang disupport oleh postgreSQL cek link ini sesuai versi yang diinstall.
 https://www.postgresql.org/docs/current/datatype.html
 
+
+contoh query untuk membuat table dengan constraints:
+CREATE TABLE person (
+    id BIGSERIAL,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    gender VARCHAR(7),
+    date_of_birth DATE,
+    email VARCHAR(150)
+);
+
 untuk melihat list table yang terdapat pada database
 \d untuk menampilkan daftar table yang kita miliki
 \d tbl_name untuk menampilkan isi detail dari tabel
