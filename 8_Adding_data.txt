@@ -1,0 +1,15 @@
+hapus dulu table sebelumnya yang sudah dibuat yaitu table person.
+DROP TABLE person;
+
+untuk menambahkan data dummy bisa diakses web berikut:
+https://mockaroo.com/
+setelah membuat data dummy silahkan download file
+
+untuk mengeksekusi file sql yang sudah dibuat tadi dapat menggunakan perintah
+\i directory_path
+
+contoh penggunaan:
+\i C:\Users\tamva\Documents\learn-postgresql\person_dummy.sql
+
+untuk windows
+\i C:/Users/tamva/Documents/learn-postgresql/person_dummy.sql
