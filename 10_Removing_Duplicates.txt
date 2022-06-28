@@ -1,0 +1,9 @@
+sebagai contoh kita tidak ingin menampilkan data duplikat maka query yang digunakan:
+SELECT DISTINCT column_name
+    FROM column_name
+    ORDER BY column_name;
+
+contoh penggunaan:
+SELECT DISTINCT country_of_birth
+    FROM person_dummy
+    ORDER BY country_of_birth;
