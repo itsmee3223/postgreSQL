@@ -1,0 +1,8 @@
+operator comparasi dapat digunakan dengan keyword WHERE untuk memfilter data yang ingin ditampilkan. link operator yang disupport dapat cek link berikut:
+https://www.postgresql.org/docs/current/functions-comparison.html
+
+contoh penggunaan
+SELECT first_name, last_name, country_of_birth
+    FROM person_dummy
+    WHERE date_of_birth > DATE '2000-01-01'
+    ORDER BY first_name;
