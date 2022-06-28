@@ -1,0 +1,12 @@
+keyword WHERE digunakan untuk memfilter data yang ingin kita tampilkan.
+SELECT select_list
+FROM table_name
+WHERE condition
+ORDER BY sort_expression;
+
+contoh penggunaan
+SELECT first_name, last_name, country_of_birth
+FROM person_dummy
+WHERE country_of_birth = 'Indonesia'
+AND (gender = 'Male' OR gender = 'Female')
+ORDER BY first_name;
