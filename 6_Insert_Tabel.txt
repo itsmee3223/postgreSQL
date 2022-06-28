@@ -1,0 +1,12 @@
+untuk memasukan sebuah data kedalam table dapat menggunakan query berikut:
+INSERT INTO table_name (table_column, table_column2, dst...)
+    VALUES("column1_value", "column2_value", dst....);
+
+sebagai contoh penggunaan dapat dilihat pada query dibawah:
+INSERT INTO person (first_name, last_name, gender, date_of_birth, email)
+    VALUES('Ramanda', 'Asyraf', 'MALE', DATE '2001-10-29', 'ramandaajisakaa@gmail.com');
+
+
+
+untuk melihat table saja dapat menggunakan perintah:
+\dt
