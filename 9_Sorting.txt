@@ -1,0 +1,14 @@
+untuk melakukan sorting dapat menggunakan query berikut:
+dokumentasi lengkap silahkan cek link:
+https://www.postgresql.org/docs/current/queries-order.html
+
+SELECT select_list
+    FROM table_expression
+    ORDER BY sort_expression1 [ASC | DESC] [NULLS { FIRST | LAST }]
+             [, sort_expression2 [ASC | DESC] [NULLS { FIRST | LAST }] ...]
+
+
+contoh penggunaan queries
+SELECT *
+    FROM person_dummy
+    ORDER BY date_of_birth DESC; // secara default ASC
