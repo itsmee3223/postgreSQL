@@ -1,0 +1,8 @@
+untuk membaca atau melihat isi table dapat menggunakan query berikut:
+SELECT column_name, column_name2, dst... FROM table_name;
+SELECT * FROM table_name; // * artinya memilih seluruh column_name yang ada pada table
+
+
+contoh penggunaan query:
+SELECT * FROM person; // select seluruh column_name
+SELECT first_name, last_name FROM person; // select column_name tertentu
