@@ -1,0 +1,5 @@
+keyword BETWEEN digunakan untuk mencara sebuah data diantara kondisi yang kita tentukan.
+SELECT *
+FROM person_dummy
+WHERE date_of_birth
+BETWEEN '2000-01-01' AND '2003-01-01';
