@@ -1,0 +1,11 @@
+digunakan untuk grouping data berdasarkan column
+SELECT column_name
+FROM table_name
+GROUP BY column_name
+ORDER BY column_name;
+
+contoh penggunaan untuk mengetahui jumlah orang yang ada dinegaranya
+SELECT country_of_birth, COUNT(*) // count merupakan sebuah fungsi untuk  menghitung jumlah baris
+FROM person_dummy
+GROUP BY country_of_birth
+ORDER BY country_of_birth;
