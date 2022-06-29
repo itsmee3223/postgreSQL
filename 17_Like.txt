@@ -1,0 +1,13 @@
+keyowrd LIKE digunakan untuk memfilter data dimana data tersebut mirip dengan kondisi yang didefisnisikan menggunakan wildcard (%)
+
+SELECT *
+FROM person_dummy
+WHERE email LIKE '%com'; // case sensitif
+
+SELECT *
+FROM person_dummy
+WHERE email LIKE '__com'; // 2 huruf apapun lalu com. tanda _ bebas sebanyak yang kita mau
+
+SELECT *
+FROM person_dummy
+WHERE email ILIKE '%com'; // tidak case sensitif
