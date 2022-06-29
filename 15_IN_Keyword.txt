@@ -1,0 +1,10 @@
+SELECT *
+FROM person_dummy
+WHERE country_of_birth = 'China'
+OR country_of_birth = 'France'
+OR country_of_birth = 'Brazil';
+
+query diatas dapat disingkat menjadi lebih pendek dengan IN keyword
+SELECT *
+FROM person_dummy
+WHERE country_of_birth IN('China', 'France', 'Brazil');
