@@ -1,0 +1,16 @@
+limit digunakan untuk membatasi berapa banyak data yang ingin ditampilkan.
+SELECT * from person_dummy
+LIMIT 5;
+
+offset digunakan untuk sebagai penanda dari awal data mana akan diambil
+SELECT * from person_dummy
+OFFSET 5
+LIMIT 5;
+
+data akan tampil pada urutan data ke 6 dan dibatasi sebanyak 5 saja.
+
+fetch hampir sama seperti limit hanya saja dia queries umum sql
+SELECT * FROM person_dummy
+OFFSET 5
+FETCH FIRST 5 ROW ONLY;
+hasil akan sama seperti diatas
