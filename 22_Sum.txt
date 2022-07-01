@@ -1,0 +1,5 @@
+SUM merupakan aggregate untuk menjumlahkan nilai dari column yang diinginkan, sebagai contoh kita ingin mengetahui jumlah seluruh harga pada model mobil yang ada didatabase maka.
+
+SELECT make, SUM(price), count(model)
+FROM car
+GROUP BY make;
