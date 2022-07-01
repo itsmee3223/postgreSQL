@@ -1,0 +1,11 @@
+SELECT NOW();
+SELECT NOW() - INTERVAL '10 DAY';
+SELECT NOW() - INTERVAL '10 MONTH';
+SELECT NOW() - INTERVAL '10 YEAR';
+
+casting kedalam date dan bisa castin ke type yang lain
+SELECT (NOW() - INTERVAL '10 YEAR')::DATE;
+
+
+untuk dokumentasi silahkan baca dari link dibawah ini:
+https://www.postgresql.org/docs/14/functions-datetime.html
