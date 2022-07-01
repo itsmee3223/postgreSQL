@@ -1,0 +1,8 @@
+silahkan download file sql melalui link ini menggunakan git clone:
+https://github.com/amigoscode/sql-postgres-course.git
+
+jika sudah jalankan file sql dengan cara berikut:
+\i path_file sql
+
+contoh path file
+\i C:/Users/tamva/Documents/learn-postgresql/car.sql
