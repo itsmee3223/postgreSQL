@@ -1,0 +1,1 @@
+SELECT first_name, COALESCE(email, 'email not provided') FROM person_dummy;
