@@ -1,0 +1,5 @@
+melakukan fungsi aggregate AVG MAX MIN pada table car
+
+SELECT make, MIN(price), ROUND(AVG(price)), MAX(price)
+FROM car
+GROUP BY make;
