@@ -1,0 +1,3 @@
+cara menggunakan age function digabungkan dengan EXTRACT untuk mendapatkan umur seseorang
+
+SELECT *, EXTRACT(YEAR FROM AGE(NOW(), date_of_birth)) FROM person_dummy;
