@@ -1,0 +1,8 @@
+untuk dokumen lengkap silahkan baca di link dokumentasi resmi postgresql dibawah ini:
+https://www.postgresql.org/docs/current/ddl-constraints.html
+
+menambahkan constraints UNIQUE email agar tidak ada duplicate email
+ALTER TABLE person_dummy ADD UNIQUE(email);
+
+menambahkan constraints gender hanya boleh male atau female
+ALTER TABLE person_dummy ADD CONSTRAINT gender_constraint CHECK(gender = 'Male' OR gender = 'Female');
