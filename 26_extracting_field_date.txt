@@ -1,0 +1,8 @@
+SELECT EXTRACT(YEAR FROM NOW());
+SELECT EXTRACT(DAY FROM NOW());
+SELECT EXTRACT(MONTH FROM NOW());
+SELECT EXTRACT(CENTURY FROM NOW());
+
+
+untuk dokumentasi silahkan baca dari link dibawah ini:
+https://www.postgresql.org/docs/14/functions-datetime.html
