@@ -1,0 +1,2 @@
+untuk caranya bisa cek link ini:
+https://www.postgresqltutorial.com/postgresql-tutorial/import-csv-file-into-posgresql-table/

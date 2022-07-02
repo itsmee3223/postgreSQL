@@ -1,0 +1,8 @@
+untuk dokumentasi silahkan baca:
+https://www.postgresql.org/docs/current/tutorial-join.html
+
+\x agar lebih enak liat table join
+
+SELECT weather.city, weather.temp_lo, weather.temp_hi,
+       weather.prcp, weather.date, cities.location
+    FROM weather JOIN cities ON weather.city = cities.name;

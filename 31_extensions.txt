@@ -1,0 +1,9 @@
+untuk dokumentasi silahkan baca:
+https://www.postgresql.org/docs/current/external-extensions.html
+
+
+untuk melihat daftar extensions
+SELECT * FROM pg_available_extensions;
+
+cara install extensions
+CREATE EXTENSION IF NOT EXISTS "nama extension";
